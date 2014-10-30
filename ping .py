@@ -1,10 +1,10 @@
 import os
-import easygui
+#import easygui
 
 
 print("Introduzca host: ")
 host = input()
-easygui.msgbox("This is a message!", title="simple gui")
+#easygui.msgbox("This is a message!", title="simple gui")
 i = 0
 while i < 100000:
     ping = os.popen("ping -n 1 %s" % host)
